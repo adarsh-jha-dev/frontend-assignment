@@ -9,8 +9,8 @@ import AuthLayout from "./components/AuthLayout.jsx";
 
 const router = createBrowserRouter([
   {
-    element: <App />,
     path: "/",
+    element: <App />,
   },
   {
     path: "/login",
